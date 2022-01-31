@@ -6,7 +6,7 @@ setup(
     url="https://github.com/synweap15/hikvision-configure",
     author="qb60",
     description="Hikvision/HiWatch camera configuring script",
-    packages=find_packages(),
+    packages=find_packages("src"),
     install_requires=[
         "certifi>=2020.11.8",
         "chardet==3.0.4",
