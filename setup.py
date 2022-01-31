@@ -8,11 +8,11 @@ setup(
     description="Hikvision/HiWatch camera configuring script",
     packages=find_packages(),
     install_requires=[
-        "certifi==2020.11.8",
+        "certifi>=2020.11.8",
         "chardet==3.0.4",
         "idna==2.10",
-        "pycryptodomex==3.9.9",
-        "requests==2.25.0",
-        "urllib3==1.26.2",
+        "pycryptodomex>=3.9.9",
+        "requests>=2.25.0",
+        "urllib3>=1.26.2",
     ],
 )
